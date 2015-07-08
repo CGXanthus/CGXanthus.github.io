@@ -230,9 +230,10 @@ main {
 }
 
 .menu {
+  background-color: #FFFFFF;
   border:none;
   border:0px;
-  border-radius: 10%;
+  border-radius: 1%;
   padding:0px;
   font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
   font-size:14px;
@@ -246,7 +247,6 @@ main {
   align-self: center;
 }
 .menu ul  {
-  background: #FFFFFF;
   height:50px;
   list-style:none;
   margin:auto;
@@ -305,7 +305,6 @@ float:none;
 margin:1px;
 padding:1px;
 width:200px;
-background:#C8C8C8;
 /*this is where the rounded corners for the dropdown disappears*/
 }
 .menu li:hover li a {
