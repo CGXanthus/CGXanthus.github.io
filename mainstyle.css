@@ -1,0 +1,331 @@
+
+@media (max-width: 991px) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-align: center;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+  .title-logo {
+    display: block;
+    margin: 40px auto 0;
+  }
+}
+
+img.float-right { /* for any image tag with class="float-right", do the following... */
+  float: right; /* position it on the right and let other things sit beside it/wrap around it */
+  margin-left: 1em; /* don't let text get to close to the left edge of the image */
+}
+img.rounded { /* for any image with class="rounded", do the following... */
+  border-radius: 100%; /* completely round the edges so it makes a circle shape */
+}
+.border1 {
+  border: solid 1px #000000; /* add a border that matches the background color on anything with class="border1" */
+}
+
+.scrollnav {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.shadow {
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+.img-center {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.p-paddingtop {
+  padding-top: 10px;
+}
+
+.img-headshot {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+.img-center:hover {
+  opacity: 1;
+}
+
+.ic {
+  color: #535353;
+  width: 2em;
+}
+
+.ic:hover {
+    text-decoration: none;
+    color: #AFB42B;
+}
+
+.ic:focus {
+  text-decoration: none;
+}
+
+.contact-row {
+  margin: 30px 0;
+}
+
+.modal-content {
+  color: #353535;
+  line-height: 170%
+}
+
+a.link-text {
+  text-decoration: none;
+  color: #bcbbbb;
+}
+
+/* Header */
+
+
+.title-logo {
+  margin-top: 40px;
+}
+
+
+.text-thin {
+  font-weight: 100;
+}
+
+
+.title-super {
+  font-size: 50px;
+}
+
+
+.text-muted {
+  color: #bcbbbb;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #C8C8C8;
+  font-family: 'Lato', sans-serif;
+  /*background-image: url("");*/
+}
+nav {
+  /*background-color: #C8C8C8;*/
+  border-top: solid 5px #000000;
+  border-bottom: solid 5px #000000;
+  text-align: center;
+  padding: .7em;
+}
+nav ul {
+  padding: 0em;
+  margin: 0em;
+}
+nav ul li {
+  display: inline;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 1em;
+  text-transform: uppercase;
+  font-size: .8em;
+}
+nav a:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+nav a.active {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+.blackline {
+  border: 1px solid black;
+}
+
+hr.headline {
+  background: #000000;
+  border: 0;
+  height: .4em;
+  border-radius: 15px;
+}
+
+.wrap {
+  margin: auto;
+}
+
+.modal-dialog {
+  max-width: 1600px !important;
+  max-height: 700px !important;
+  width: 200vh;
+  height: 95vh;
+}
+
+.video {
+  max-width: 1400px !important;
+  max-height: 700px !important;
+  width: 200vh;
+  height: 100vh;
+}
+
+
+main {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+}
+
+.menu {
+  border:none;
+  border:0px;
+  border-radius: 10%;
+  padding:0px;
+  font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size:14px;
+  font-weight:bold;
+  margin: auto;
+  align-content: center;
+  display: flex;
+  flex-flow: flex;
+  width: 100%;
+  -webkit-align-self: center;
+  align-self: center;
+}
+.menu ul  {
+  background: #FFFFFF;
+  height:50px;
+  list-style:none;
+  margin:auto;
+  padding:0;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+  -moz-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+  box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, .1);
+}
+.menu li {
+  padding:0px 0px 0px 15px;
+  float:left;
+}
+.menu li a {
+color:#000;
+display:block;
+font-weight:normal;
+line-height:50px;
+margin:0px;
+padding:0px 25px;
+text-align:center;
+text-decoration:none;
+}
+.menu li a:hover {
+background:#C8C8C8;
+color:#000000;
+text-decoration:none;
+-webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+-moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+}
+.menu ul li:hover a {
+background:#C8C8C8;
+color:#000000;
+text-decoration:none;
+border-radius: 15px;
+}
+.menu li ul {
+display:none;
+height:auto;
+padding:0px;
+margin:0px;
+border:0px;
+position:absolute;
+width:200px;
+z-index:200;
+}
+.menu li:hover ul {
+display:block; 
+}
+.menu li li {
+display:block;
+float:none;
+margin:1px;
+padding:1px;
+width:200px;
+background:#C8C8C8;
+/*this is where the rounded corners for the dropdown disappears*/
+}
+.menu li:hover li a {
+background:none;
+}
+.menu li ul a {
+display:block;
+height:50px;
+font-size:12px;
+font-style:normal;
+margin:0px;
+padding:0px 10px 0px 15px;
+text-align:left;
+}
+.menu li ul a:hover, .menu li ul li:hover a {
+border:0px;
+color:#ffffff;
+text-decoration:none;
+background:#C8C8C8;
+-webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+-moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3); 
+}
