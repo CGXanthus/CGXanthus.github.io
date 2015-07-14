@@ -1,5 +1,5 @@
 body { 
-  background: url(images/Young-Professionals-black-and-white.jpg) no-repeat center center fixed; 
+  background: url(../images/Young-Professionals-black-and-white.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -162,13 +162,50 @@ nav {
   border-bottom: solid 5px #000000;
   text-align: center;
   padding: .7em;
+  font: 150% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-weight:bold;
+  margin: auto;
+  align-content: center;
+  display: flex;
+  flex-flow: flex;
+  width: 100%;
+  -webkit-align-self: center;
+  align-self: center;
+  position: relative;
+  margin-left: 15px;
+}
 }
 nav ul {
   padding: 0em;
   margin: 0em;
+  font: 150% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-weight:bold;
+  margin: auto;
+  align-content: center;
+  display: flex;
+  flex-flow: flex;
+  width: 100%;
+  -webkit-align-self: center;
+  align-self: center;
+  position: relative;
+  margin-left: 15px;
+}
+
 }
 nav ul li {
   display: inline;
+  font: 150% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-weight:bold;
+  margin: auto;
+  align-content: center;
+  display: flex;
+  flex-flow: flex;
+  width: 100%;
+  -webkit-align-self: center;
+  align-self: center;
+  position: relative;
+  margin-left: 15px;
+}
 }
 nav a {
   color: black;
@@ -180,6 +217,10 @@ nav a {
 nav a:hover {
   background-color: #000000;
   color: #FFFFFF;
+  text-decoration:none;
+  -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+  -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
+  box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
 }
 nav a.active {
   text-decoration: underline;
@@ -244,22 +285,6 @@ main {
 
 .menu {
   background-color: #FFFFFF;
-  font-size: 14px;
-  border:none;
-  border:0px;
-  border-radius: 1%;
-  padding:0px;
-  font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
-  font-weight:bold;
-  margin: auto;
-  align-content: center;
-  display: flex;
-  flex-flow: flex;
-  width: 100%;
-  -webkit-align-self: center;
-  align-self: center;
-  position: relative;
-  margin-left: 15px;
 }
 .menu ul  {
   height:50px;
@@ -277,7 +302,6 @@ main {
 }
 .menu li {
   padding:0px 0px 0px 15px;
-  font-size: 14px;
   float:left;
 }
 .menu li a {
@@ -293,7 +317,6 @@ text-decoration:none;
 }
 .menu li a:hover {
   background:#C8C8C8;
-  font-size: 14px;
   color:#000000;
   text-decoration:none;
   -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
@@ -302,7 +325,6 @@ text-decoration:none;
 }
 .menu ul li:hover a {
   position: relative;
-  font-size: 14px;
   background:#C8C8C8;
   color:#000000;
   text-decoration:none;
@@ -310,7 +332,6 @@ text-decoration:none;
 }
 .menu li ul {
 display:none;
-font-size: 14px;
 height:auto;
 padding:0px;
 margin:0px;
@@ -324,9 +345,7 @@ display:block;
 }
 .menu li li {
 display:block;
-font-size: 14px;
 float:none;
-font-size:15px !important;
 margin:1px;
 padding:1px;
 width:200px;
@@ -338,7 +357,6 @@ font-size: 14px;
 }
 .menu li ul a {
 display:block;
-font-size: 14px;
 height:50px;
 font-style:normal;
 margin:0px;
@@ -349,7 +367,6 @@ text-align:left;
 border:0px;
 color:#ffffff;
 text-decoration:none;
-font-size: 14px;
 background:#C8C8C8;
 -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
 -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, .3);
