@@ -157,7 +157,6 @@ body {
   font-family: 'Lato', sans-serif;
 }
 nav {
-  /*background-color: #C8C8C8;*/
   border-top: solid 5px #000000;
   border-bottom: solid 5px #000000;
   text-align: center;
@@ -185,10 +184,6 @@ nav ul {
   display: flex;
   flex-flow: flex;
   width: 100%;
-  -webkit-align-self: center;
-  align-self: center;
-  position: relative;
-  margin-left: 15px;
 }
 
 }
@@ -200,11 +195,6 @@ nav ul li {
   align-content: center;
   display: flex;
   flex-flow: flex;
-  width: 100%;
-  -webkit-align-self: center;
-  align-self: center;
-  position: relative;
-  margin-left: 15px;
 }
 }
 nav a {
@@ -311,7 +301,7 @@ display:block;
 font-weight:normal;
 line-height:50px;
 margin:0px;
-padding:0px 25px;
+padding:0px 10px;
 text-align:center;
 text-decoration:none;
 }
